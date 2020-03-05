@@ -145,3 +145,13 @@ randi(20)
 randi([5, 20]) % a random integer from 5 to 20, inclusive
 randi([5, 20])
 randi([5, 20])
+
+ size = input('enter')
+switch size
+    
+case{5, 6}
+fprintf('small')
+case {4, 5}
+fprintf('medium')
+
+end

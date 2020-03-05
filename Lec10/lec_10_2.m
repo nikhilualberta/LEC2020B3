@@ -10,7 +10,7 @@ end
 
 %% FOR loop ex. #2
 clc
-vec = randi(99, 1, 5)
+vec = randi(99, 1, 5);
 for i = vec
     fprintf('%d: Hello world\n', i);
 end
